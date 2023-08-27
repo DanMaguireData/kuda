@@ -1,0 +1,12 @@
+# Creating a virtualenv with a specific python version
+virtualenv --python=/opt/homebrew/bin/python3.11 ~/virtualenvs/kuda
+
+# Install grau package
+pip install -e ~/Work/grau
+
+# Store big files in Git
+# https://git-lfs.com/
+brew install git-lfs
+git lfs install
+git lfs track "*.csv"
+git add .gitattributes
