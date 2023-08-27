@@ -162,5 +162,5 @@ cython_debug/
 # Ignore .DS_Store in all locations as it is a common nuisance in many projects
 **/.DS_Store
 
-# Ignore all csv files
-**/*.csv
+# Ignoring data directories
+phase_zero/data
