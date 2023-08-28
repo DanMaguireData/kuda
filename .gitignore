@@ -164,3 +164,4 @@ cython_debug/
 
 # Ignoring data directories
 phase_zero/data
+data

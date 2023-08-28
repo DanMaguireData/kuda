@@ -127,22 +127,20 @@ age_dist = exploded_df.groupby("Age").agg({"Links": "count"}).reset_index()
 print(
     f"Age Workout Distribution:",
 )
-pprint(
-    age_dist.to_dict(orient='records')
-)
+pprint(age_dist.to_dict(orient="records"))
 
-most_wrks = age_dist.Links.nlargest(1, keep='all')
+most_wrks = age_dist.Links.nlargest(1, keep="all")
 print(
     f"\nHighest workout count: Age: {age_dist.iloc[most_wrks.index[0]].Age} Num workouts: {most_wrks.iloc[0]}\n\n",
 )
-snd_most_wrks = age_dist.Links.nlargest(2, keep='all')
+snd_most_wrks = age_dist.Links.nlargest(2, keep="all")
 print(
     f"Second highest workout count: Age: {age_dist.iloc[snd_most_wrks.index[-1]].Age} Num workouts: {snd_most_wrks.iloc[-1]}\n\n",
 )
 
-least_wrks = age_dist.Links.nsmallest(1, keep='all')
+least_wrks = age_dist.Links.nsmallest(1, keep="all")
 print(
     f"Lowest workout count: Age: {age_dist.iloc[least_wrks.index[-1]].Age} Num workouts: {least_wrks.iloc[-1]}\n\n",
 )
 
-exploded_df
+df.to_csv("./data/workoutlinks/full_male_workout_links.csv", index=False)
