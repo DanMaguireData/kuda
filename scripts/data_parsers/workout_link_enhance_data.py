@@ -101,7 +101,7 @@ def custom_aggregator(series: pd.Series) -> pd.Series:
 
     # We'll either have a list of Links here or a null value
     # for one of our simple columns
-    return pd.Series(list(items)) if items else np.nan
+    return pd.Series([list(items)]) if items else np.nan
 
 
 # Groupby columns
