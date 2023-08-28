@@ -144,5 +144,3 @@ least_wrks = age_dist.Links.nsmallest(1, keep='all')
 print(
     f"Lowest workout count: Age: {age_dist.iloc[least_wrks.index[-1]].Age} Num workouts: {least_wrks.iloc[-1]}\n\n",
 )
-
-print("My breakdown:")
