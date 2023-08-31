@@ -288,6 +288,7 @@ def scrape_workout_page(url: str) -> Workout:
     ).text
     workout["name"] = workout_name
     workout["username"] = username
+    workout["url"] = url
 
     # Get the Muslces worked according to the App
     muscles_used_tag: element.Tag = html_page.find(

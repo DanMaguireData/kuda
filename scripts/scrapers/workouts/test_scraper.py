@@ -77,4 +77,4 @@ def scrape_single_workout(link: str):
     return workout
 
 
-scrape_single_workout(TESTED_LINKS[-1])
+scrape_single_workout(TESTED_LINKS[9])
