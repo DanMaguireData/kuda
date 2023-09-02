@@ -8,8 +8,8 @@ WORKOUT_VARIANTS: List[Dict[str, str]] = [
     {
         "link": f"{BASE_WORKOUT_URL}coachdmurph/5bf3ec42176a3027b0ad04d8",
         "summary:": (
-			"Contains a seperate dropset, superset "
-			"and straight set and cardio."
+            "Contains a seperate dropset, superset "
+            "and straight set and cardio."
         ),
     },
     {

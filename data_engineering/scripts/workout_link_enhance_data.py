@@ -1,11 +1,15 @@
 # Doing some Analysis on the old Male Workout Links Data
 
-import pandas as pd
-import numpy as np
 import os
+from ast import literal_eval
 from pprint import pprint
 
-root_path: str = "./phase_zero/data/workout_links/male/set_2"
+import numpy as np
+import pandas as pd
+
+root_path: str = (
+    "big_data/phase_zero/workout_links/male_workout_links/links_set_2"
+)
 
 example_workout_link: str = (
     "https://bodyspace.bodybuilding.com/"  # base url
@@ -19,29 +23,29 @@ def extract_username(links: str) -> str:
     Extracts the username from the links column
     """
 
-    links = list(eval(links))
+    links = list(literal_eval(links))
     if len(links) == 0:
         return "n/a"
     return links[0].split("viewworkoutlog")[1].split("/")[1]
 
 
-def add_username_col() -> None:
+def add_username_col(pdf: pd.DataFrame) -> None:
     # Adding username column to the data
     for _, _, files in os.walk(root_path):
         for file in files:
             # Skipping non-csv files
             if ".csv" not in file:
                 continue
-            df = pd.read_csv(f"{root_path}/{file}")
+            pdf = pd.read_csv(f"{root_path}/{file}")
             # Allowing re-running of the script
-            if "username" in df.columns:
+            if "username" in pdf.columns:
                 continue
             print(f"Processing: '{file}'")
-            df["username"] = df["Links"].apply(extract_username)
+            pdf["username"] = pdf["Links"].apply(extract_username)
             # Removing the Names column as it wasn't consistent
-            if "Names" in df.columns:
-                df.drop(columns=["Names"], inplace=True)
-            df.to_csv(f"{root_path}/{file}", index=False)
+            if "Names" in pdf.columns:
+                pdf.drop(columns=["Names"], inplace=True)
+            pdf.to_csv(f"{root_path}/{file}", index=False)
 
 
 # Getting all files into one big DF
@@ -71,7 +75,7 @@ print(f"Total Users: {len(data)}")
 df = pd.DataFrame(data)
 # Age can sometimes be an int
 df["Age"] = df["Age"].astype(str)
-df["Links"] = df["Links"].apply(lambda links: list(eval(links)))
+df["Links"] = df["Links"].apply(lambda links: list(literal_eval(links)))
 
 
 def custom_aggregator(series: pd.Series) -> pd.Series:
@@ -125,7 +129,7 @@ print(
 
 age_dist = exploded_df.groupby("Age").agg({"Links": "count"}).reset_index()
 print(
-    f"Age Workout Distribution:",
+    "Age Workout Distribution:",
 )
 pprint(age_dist.to_dict(orient="records"))
 
