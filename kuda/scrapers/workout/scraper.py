@@ -1,9 +1,10 @@
 import re
 from enum import Enum
-from bs4 import BeautifulSoup, element
-import requests
-from typing import List, TypedDict, Tuple, Dict, Optional
 from itertools import cycle
+from typing import Dict, List, Optional, Tuple, TypedDict
+
+import requests
+from bs4 import BeautifulSoup, element
 
 
 class BBSetType(Enum):
@@ -11,6 +12,7 @@ class BBSetType(Enum):
     REPS = "REPS"
     TIME = "TIME"
     WEIGHT = "WEIGHT"
+    # Won't use HEART_RATE for now
     # HEART_RATE = "HEARTRATE"
 
 
@@ -71,7 +73,9 @@ def get_rest_time(string: str) -> str:
     return str(int(min) * 60 + int(secs))
 
 
-def get_weight_reps(set_component_performance: element.Tag) -> Tuple[str, str, str]:
+def get_weight_reps(
+    set_component_performance: element.Tag,
+) -> Tuple[str, str, str]:
     string = set_component_performance.text
     if string is None:
         return None
@@ -140,7 +144,9 @@ def handle_double_set_component(
             and handle_type == "cardio"
         ):
             performance = (
-                set_component_performances[index].text.strip().replace("\n", "")
+                set_component_performances[index]
+                .text.strip()
+                .replace("\n", "")
             )
             performance = re.sub("hr|min|sec", "", performance)
             hrs, mins, secs = performance.split(":")
@@ -190,7 +196,9 @@ def handle_double_set_component(
                 elif bb_set_type == BBSetType.TIME.value:
                     weight_metric = "seconds"
                     time_string = (
-                        set_component_performances[index].text.strip().replace("\n", "")
+                        set_component_performances[index]
+                        .text.strip()
+                        .replace("\n", "")
                     )
                     hrs, mins, secs = time_string.split(":")
                     weight = str(
@@ -223,7 +231,10 @@ def get_bb_set_type_and_target(
     set_component_title: str,
 ) -> Tuple[str, Optional[str]]:
     atts: List[str] = (
-        set_component_title.strip().replace(" ", "").replace("\n\n", "-").split("-")
+        set_component_title.strip()
+        .replace(" ", "")
+        .replace("\n\n", "-")
+        .split("-")
     )
     bb_set_type = atts[0].replace(":", "")
     target_string = None
@@ -249,10 +260,14 @@ def get_bb_set_type_and_target(
             components = target_string.split(":")
             if len(components) == 3:
                 hrs, mins, secs = components
-                target_string = str(int(hrs) * 3600 + int(mins) * 60 + int(secs))
+                target_string = str(
+                    int(hrs) * 3600 + int(mins) * 60 + int(secs)
+                )
             elif len(components) == 4:
                 _, hrs, mins, secs = components
-                target_string = str(int(hrs) * 3600 + int(mins) * 60 + int(secs))
+                target_string = str(
+                    int(hrs) * 3600 + int(mins) * 60 + int(secs)
+                )
             else:
                 raise ValueError("Target string not found")
     return bb_set_type, target_string
@@ -275,7 +290,7 @@ def find_rest_for_set_component(set_title: element.Tag, set_type: str) -> str:
             return get_rest_time(div.text)
 
 
-def scrape_workout_page(url: str) -> Workout:
+def scrape_workout(url: str) -> Workout:
     username = url.split("viewworkoutlog")[1].split("/")[1]
     html_page: element.Tag = BeautifulSoup(
         requests.get(url, headers={"User-Agent": request_agent}).text, "lxml"
@@ -294,18 +309,22 @@ def scrape_workout_page(url: str) -> Workout:
     muscles_used_tag: element.Tag = html_page.find(
         "div", {"class": "musclesWorked"}
     ).find("span", {"class", "value"})
-    muscles_used: List[str] = [m.strip() for m in muscles_used_tag.text.split(",")]
+    muscles_used: List[str] = [
+        m.strip() for m in muscles_used_tag.text.split(",")
+    ]
     workout["muscles_used"] = muscles_used
 
     # Get the Workout Time (seconds) looks like "00:00" hr:min
     workout_time = html_page.find(
-        "span", {"wicketpath": "logResultsPanel_workoutSummary_totalWorkoutTime"}
+        "span",
+        {"wicketpath": "logResultsPanel_workoutSummary_totalWorkoutTime"},
     ).text.strip()
     hrs, mins = workout_time.split(":")
     workout["duration"] = str(int(hrs) * 3600 + int(mins) * 60)
 
     cardio_time = html_page.find(
-        "span", {"wicketpath": "logResultsPanel_workoutSummary_totalCardioTime"}
+        "span",
+        {"wicketpath": "logResultsPanel_workoutSummary_totalCardioTime"},
     ).text.strip()
     hrs, mins = cardio_time.split(":")
     workout["cardio_duration"] = str(int(hrs) * 3600 + int(mins) * 60)
@@ -345,9 +364,9 @@ def scrape_workout_page(url: str) -> Workout:
             workout_component["rest_time"]: str = None
 
         # The BB.com set tags are our Set Objects
-        set_tags: List[element.Tag] = exercise_details[workout_component_index].findAll(
-            "div", {"class": "set"}
-        )
+        set_tags: List[element.Tag] = exercise_details[
+            workout_component_index
+        ].findAll("div", {"class": "set"})
 
         # Set with no data (Not completed)
         if len(set_tags) == 0:
@@ -363,14 +382,18 @@ def scrape_workout_page(url: str) -> Workout:
 
         exercise_data: Dict = []
         for index, exercise_tag in enumerate(exercise_tags):
-            muscle = exercise_muscle_and_equipment[index].findAll("li")[0].find("a")
+            muscle = (
+                exercise_muscle_and_equipment[index].findAll("li")[0].find("a")
+            )
             exercise_type = (
                 exercise_muscle_and_equipment[index].findAll("li")[1].find("a")
             )
             exercise_equipment = (
                 exercise_muscle_and_equipment[index].findAll("li")[2].find("a")
             )
-            exercise_link = exercise_tag.find("p", {"class": "exercise-nav"}).find("a")
+            exercise_link = exercise_tag.find(
+                "p", {"class": "exercise-nav"}
+            ).find("a")
             exercise_data.append(
                 {
                     "exercise_name": exercise_tag.find("h3").text,
@@ -456,10 +479,14 @@ def scrape_workout_page(url: str) -> Workout:
                             handle_double_set_component(
                                 set_component_titles=set_component_titles
                                 if len(exercise_tags) == 1
-                                else set_component_titles[set_component_index:],
+                                else set_component_titles[
+                                    set_component_index:
+                                ],
                                 set_component_performances=set_component_performances
                                 if len(exercise_tags) == 1
-                                else set_component_performances[set_component_index:],
+                                else set_component_performances[
+                                    set_component_index:
+                                ],
                                 exercise=next(exercise_data),
                                 handle_type="weight",
                             )
@@ -475,13 +502,17 @@ def scrape_workout_page(url: str) -> Workout:
                 # Some users don't fill in completed reps and weight
                 # so we'll track this in case it's useful
                 bb_set_type, target = get_bb_set_type_and_target(
-                    set_component_title=set_component_titles[set_component_index].text
+                    set_component_title=set_component_titles[
+                        set_component_index
+                    ].text
                 )
 
                 # Can be a span containing dropset info e.g. "DROP 1"
                 if set_component_titles[set_component_index].find("span"):
                     title_info = (
-                        set_component_titles[set_component_index].find("span").text
+                        set_component_titles[set_component_index]
+                        .find("span")
+                        .text
                     )
                     # We only find out in the set components that the "set" is a drop set
                     if "drop" in title_info.lower():
@@ -548,7 +579,9 @@ def scrape_workout_page(url: str) -> Workout:
                 set_component["exercise_name"] = exercise["exercise_name"]
                 set_component["exercise_muscle"] = exercise["exercise_muscle"]
                 set_component["exercise_type"] = exercise["exercise_type"]
-                set_component["exercise_equipment"] = exercise["exercise_equipment"]
+                set_component["exercise_equipment"] = exercise[
+                    "exercise_equipment"
+                ]
 
                 # Finding the rest time for the set component
                 rest_time = find_rest_for_set_component(

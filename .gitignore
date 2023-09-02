@@ -162,6 +162,8 @@ cython_debug/
 # Ignore .DS_Store in all locations as it is a common nuisance in many projects
 **/.DS_Store
 
-# Ignoring data directories
-phase_zero/data
-data
+# Big data
+big_data
+
+# Will contain personal secrets
+access_secrets
