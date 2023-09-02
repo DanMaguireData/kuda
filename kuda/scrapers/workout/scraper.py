@@ -31,6 +31,9 @@ class SetComponent(TypedDict):
     rest_time: str
     exercise_name: str
     exercise_link: str
+    exercise_equipment: str
+    exercise_type: str
+    exercise_muscle: str
 
 
 class Set(TypedDict):
@@ -273,7 +276,9 @@ def get_bb_set_type_and_target(
     return bb_set_type, target_string
 
 
-def find_rest_for_set_component(set_title: element.Tag, set_type: str) -> str:
+def find_rest_for_set_component(
+    set_title: element.Tag, set_type: SetTypes
+) -> str:
     set_row = set_title.find_parent()
     if set_type == SetTypes.SUPER_SET.value:
         while "set-body" not in set_row.get("class"):
@@ -551,7 +556,7 @@ def scrape_workout(url: str) -> Workout:
                     reps = re.sub("reps|\.", "", string)
                 elif bb_set_type == BBSetType.WEIGHT.value:
                     string = (
-                        set_component_performances[index]
+                        set_component_performances[set_component_index]
                         .text.strip()
                         .replace("\n", "")
                         .lower()
