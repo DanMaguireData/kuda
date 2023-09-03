@@ -6,3 +6,6 @@ pip install -e ~/Work/grau
 
 # Install kuda package
 pip install -e .
+
+# Install sheiva_cloud package
+pip install -e ~/Work/sheiva_cloud
