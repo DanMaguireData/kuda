@@ -169,6 +169,3 @@ dmypy.json
 
 # Big data
 big_data
-
-# Will contain personal secrets
-access_secrets
