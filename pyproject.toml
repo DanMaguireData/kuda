@@ -15,7 +15,6 @@ packages = ["kuda"]
 line-length = 79
 target-version = ['py311']
 
-
 [tool.isort]
 atomic = true
 profile = "black"
