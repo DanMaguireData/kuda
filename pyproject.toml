@@ -8,8 +8,8 @@ dependencies = [
 	"requests==2.31.0",
 ]
 
-[tool.setuptools]
-packages = ["kuda"]
+[tool.setuptools.packages]
+find = {} 
 
 [tool.black]
 line-length = 79
