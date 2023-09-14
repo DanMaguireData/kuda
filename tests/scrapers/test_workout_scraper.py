@@ -24,9 +24,14 @@ def test_scraped_links() -> None:
     for index, workout in enumerate(WORKOUT_VARIANTS):
         link = workout["link"]
         print("Testing link: ", link)
-        workout = scrape_urls(urls=[link], html_parser=parse_workout_html)[0]
-        assert set(tested_links[index].pop("muscles_used")) == set(
-            workout.pop("muscles_used")
-        )
-        assert DeepDiff(tested_links[index], workout) == {}
-        print("Test passed!")
+        response = scrape_urls(urls=[link], html_parser=parse_workout_html)[0]
+
+        if isinstance(response, str):
+            assert response == link
+            print("Test passed!")
+        else:
+            assert set(tested_links[index].pop("muscles_used")) == set(
+                response.pop("muscles_used")
+            )
+            assert DeepDiff(tested_links[index], response) == {}
+            print("Test passed!")

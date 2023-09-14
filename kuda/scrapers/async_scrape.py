@@ -22,6 +22,7 @@ async def scrape_page(
         # We include the url for tracking purposes.
         try:
             return html_parser(url, data)
+        # pylint: disable=broad-except
         except Exception:
             return url
 
