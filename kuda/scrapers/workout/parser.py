@@ -6,7 +6,6 @@ from enum import Enum
 from itertools import cycle
 from typing import Dict, List, Optional, Tuple, TypedDict
 
-import requests
 from bs4 import BeautifulSoup, element
 
 
@@ -298,12 +297,10 @@ def find_rest_for_set_component(
             return get_rest_time(div.text)
 
 
-def scrape_workout(
-    url: str, requests_session: requests.Session
-) -> Dict[str, str]:
+def parse_workout_html(url: str, html_text: element.Tag) -> Dict[str, str]:
     username = url.split("viewworkoutlog")[1].split("/")[1]
     html_page: element.Tag = BeautifulSoup(
-        requests_session.get(url, headers={"User-Agent": request_agent}).text,
+        html_text,
         "lxml",
     )
     workout: Workout = dict()
