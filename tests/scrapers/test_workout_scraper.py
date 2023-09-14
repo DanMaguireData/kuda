@@ -24,7 +24,7 @@ def test_scraped_links() -> None:
     for index, workout in enumerate(WORKOUT_VARIANTS):
         link = workout["link"]
         print("Testing link: ", link)
-        workout = scrape_urls(urls=[link], data_parser=parse_workout_html)[0]
+        workout = scrape_urls(urls=[link], html_parser=parse_workout_html)[0]
         assert set(tested_links[index].pop("muscles_used")) == set(
             workout.pop("muscles_used")
         )

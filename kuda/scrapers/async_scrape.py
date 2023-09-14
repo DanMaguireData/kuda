@@ -5,14 +5,14 @@ import aiohttp
 
 
 async def scrape_page(
-    session: aiohttp.ClientSession, url: str, data_parser: Callable
+    session: aiohttp.ClientSession, url: str, html_parser: Callable
 ):
     """
     Scrape a single page and return the parsed data.
     Args:
         session: (aiohttp.ClientSession) Session to use for the request.
         url: (str) Url to scrape.
-        data_parser: (Callable) Function to parse the data.
+        html_parser: (Callable) Function to parse the data.
     Returns:
         Dict: Parsed data.
     """
@@ -20,11 +20,11 @@ async def scrape_page(
     async with session.get(url) as response:
         data = await response.text()
         # We include the url for tracking purposes.
-        return data_parser(url, data)
+        return html_parser(url, data)
 
 
 async def scrape_in_batches(
-    urls: List[str], batch_size: int, data_parser: Callable
+    urls: List[str], batch_size: int, html_parser: Callable
 ) -> List[Dict]:
     """
     Scrape a list of pages in batches and return the parsed data.
@@ -33,7 +33,7 @@ async def scrape_in_batches(
     Args:
         urls: (List[str]) List of urls to scrape.
         batch_size: (int) Number of urls to scrape in each batch.
-        data_parser: (Callable) Function to parse the data.
+        html_parser: (Callable) Function to parse the data.
     Returns:
         List[Dict]: List of parsed data.
     """
@@ -43,7 +43,7 @@ async def scrape_in_batches(
         for i in range(0, len(urls), batch_size):
             batch = urls[i : i + batch_size]
             tasks = [
-                scrape_page(session=session, url=url, data_parser=data_parser)
+                scrape_page(session=session, url=url, html_parser=html_parser)
                 for url in batch
             ]
             batch_data = await asyncio.gather(*tasks)
@@ -52,13 +52,13 @@ async def scrape_in_batches(
 
 
 def scrape_urls(
-    urls: List[str], data_parser: Callable, batch_size: int = 1
+    urls: List[str], html_parser: Callable, batch_size: int = 1
 ) -> List[Dict]:
     """
     Scrape a list of urls and return the parsed data.
     Args:
         urls: (List[str]) List of urls to scrape.
-        data_parser: (Callable) Function to parse the data.
+        html_parser: (Callable) Function to parse the data.
         batch_size: (int) Number of urls to scrape in each batch.
     Returns:
         List[Dict]: List of parsed data.
@@ -68,6 +68,6 @@ def scrape_urls(
         scrape_in_batches(
             urls=urls,
             batch_size=batch_size,
-            data_parser=data_parser,
+            html_parser=html_parser,
         )
     )

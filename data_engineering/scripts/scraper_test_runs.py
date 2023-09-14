@@ -23,7 +23,7 @@ data = scrape_urls(
         f"{BASE_WORKOUT_URL}zzohaib/5376f2f70cf28afcb6ce2e9a",
         f"{BASE_WORKOUT_URL}zzneo/5bcad0494e400527ce7156fc",
     ],
-    data_parser=parse_workout_html,
+    html_parser=parse_workout_html,
     batch_size=10,
 )
 
