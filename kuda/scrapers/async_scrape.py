@@ -1,12 +1,12 @@
 import asyncio
-from typing import Callable, Dict, List
+from typing import Callable, Dict, List, Union
 
 import aiohttp
 
 
 async def scrape_page(
     session: aiohttp.ClientSession, url: str, html_parser: Callable
-):
+) -> Union[Dict, str]:
     """
     Scrape a single page and return the parsed data.
     Args:
@@ -20,7 +20,10 @@ async def scrape_page(
     async with session.get(url) as response:
         data = await response.text()
         # We include the url for tracking purposes.
-        return html_parser(url, data)
+        try:
+            return html_parser(url, data)
+        except Exception:
+            return url
 
 
 async def scrape_in_batches(
@@ -53,7 +56,7 @@ async def scrape_in_batches(
 
 def scrape_urls(
     urls: List[str], html_parser: Callable, batch_size: int = 1
-) -> List[Dict]:
+) -> List[Union[Dict, str]]:
     """
     Scrape a list of urls and return the parsed data.
     Args:
@@ -61,7 +64,7 @@ def scrape_urls(
         html_parser: (Callable) Function to parse the data.
         batch_size: (int) Number of urls to scrape in each batch.
     Returns:
-        List[Dict]: List of parsed data.
+        List[Union[Dict, str]]: List of parsed data.
     """
 
     return asyncio.run(
