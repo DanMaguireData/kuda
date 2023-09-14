@@ -380,7 +380,3 @@ def execute(usernames: List[str]):
     if driver is not None:
         driver.quit()
     return results
-
-
-if __name__ == "__main__":
-    execute(usernames=["1triggatra"])
