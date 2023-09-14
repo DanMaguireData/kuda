@@ -298,10 +298,10 @@ def find_rest_for_set_component(
             return get_rest_time(div.text)
 
 
-def scrape_workout(url: str) -> Dict[str, str]:
+def scrape_workout(url: str, requests_session: requests.Session) -> Dict[str, str]:
     username = url.split("viewworkoutlog")[1].split("/")[1]
     html_page: element.Tag = BeautifulSoup(
-        requests.get(url, headers={"User-Agent": request_agent}).text, "lxml"
+        requests_session.get(url, headers={"User-Agent": request_agent}).text, "lxml"
     )
     workout: Workout = dict()
 
