@@ -483,7 +483,8 @@ def scrape_workout(
                     > 1
                 ):
                     if (
-                        "drop" not in set_component_titles[0].text.lower()
+                        len(set_component_titles) > 1
+                        and "drop" not in set_component_titles[0].text.lower()
                         and "drop" not in set_component_titles[1].text.lower()
                     ):
                         set_["set_components"].append(

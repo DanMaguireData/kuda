@@ -4666,5 +4666,657 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Dymatize Project Mass: Cycle 1, Microcycle 2, Day 14 - Push Hypertrophy",
+        "username": "1243week",
+        "url": "https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/1243week/5a65f0b549cd4326e09821ca",
+        "muscles_used": [
+            "Shoulders",
+            "Triceps",
+            "Chest"
+        ],
+        "duration": "480",
+        "cardio_duration": "0",
+        "energy_level": 4,
+        "self_rating": "5",
+        "workout_components": [
+            {
+                "sequence": 1,
+                "sets": [
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "110",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-bench-press",
+                                "exercise_name": "Dumbbell Bench Press",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 1,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "120",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-bench-press",
+                                "exercise_name": "Dumbbell Bench Press",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 2,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "120",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-bench-press",
+                                "exercise_name": "Dumbbell Bench Press",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 3,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "120",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-bench-press",
+                                "exercise_name": "Dumbbell Bench Press",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "1"
+                            }
+                        ],
+                        "sequence": 4,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "1"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "120",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-bench-press",
+                                "exercise_name": "Dumbbell Bench Press",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "432"
+                            }
+                        ],
+                        "sequence": 5,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "432"
+                    }
+                ],
+                "rest_time": "432"
+            },
+            {
+                "sequence": 2,
+                "sets": [
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "50",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-incline-bench-press-medium-grip",
+                                "exercise_name": "Barbell Incline Bench Press - Medium Grip",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Barbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 1,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "50",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-incline-bench-press-medium-grip",
+                                "exercise_name": "Barbell Incline Bench Press - Medium Grip",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Barbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 2,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "50",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-incline-bench-press-medium-grip",
+                                "exercise_name": "Barbell Incline Bench Press - Medium Grip",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Barbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 3,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "50",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-incline-bench-press-medium-grip",
+                                "exercise_name": "Barbell Incline Bench Press - Medium Grip",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Barbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 4,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "50",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-incline-bench-press-medium-grip",
+                                "exercise_name": "Barbell Incline Bench Press - Medium Grip",
+                                "exercise_muscle": "Chest",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Barbell",
+                                "rest_time": "6"
+                            }
+                        ],
+                        "sequence": 5,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "6"
+                    }
+                ],
+                "rest_time": "6"
+            },
+            {
+                "sequence": 3,
+                "sets": [
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "70",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-dumbbell-press",
+                                "exercise_name": "Seated Dumbbell Press",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 1,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "70",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-dumbbell-press",
+                                "exercise_name": "Seated Dumbbell Press",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 2,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "70",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-dumbbell-press",
+                                "exercise_name": "Seated Dumbbell Press",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 3,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "70",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-dumbbell-press",
+                                "exercise_name": "Seated Dumbbell Press",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 4,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "70",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-dumbbell-press",
+                                "exercise_name": "Seated Dumbbell Press",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "2"
+                            }
+                        ],
+                        "sequence": 5,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "2"
+                    }
+                ],
+                "rest_time": "2"
+            },
+            {
+                "sequence": 4,
+                "sets": [
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "20",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/side-lateral-raise",
+                                "exercise_name": "Side Lateral Raise",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 1,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "20",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/side-lateral-raise",
+                                "exercise_name": "Side Lateral Raise",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 2,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "20",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/side-lateral-raise",
+                                "exercise_name": "Side Lateral Raise",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 3,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "20",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/side-lateral-raise",
+                                "exercise_name": "Side Lateral Raise",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 4,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "20",
+                                "reps": "10",
+                                "target": "0",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/side-lateral-raise",
+                                "exercise_name": "Side Lateral Raise",
+                                "exercise_muscle": "Shoulders",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Dumbbell",
+                                "rest_time": "3"
+                            }
+                        ],
+                        "sequence": 5,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "3"
+                    }
+                ],
+                "rest_time": "3"
+            },
+            {
+                "sequence": 5,
+                "sets": [
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "60",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/ez-bar-skullcrusher",
+                                "exercise_name": "EZ-Bar Skullcrusher",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "E-Z Curl Bar",
+                                "rest_time": "1"
+                            }
+                        ],
+                        "sequence": 1,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "1"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "60",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/ez-bar-skullcrusher",
+                                "exercise_name": "EZ-Bar Skullcrusher",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "E-Z Curl Bar",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 2,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "60",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/ez-bar-skullcrusher",
+                                "exercise_name": "EZ-Bar Skullcrusher",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "E-Z Curl Bar",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 3,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "60",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/ez-bar-skullcrusher",
+                                "exercise_name": "EZ-Bar Skullcrusher",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "E-Z Curl Bar",
+                                "rest_time": "1"
+                            }
+                        ],
+                        "sequence": 4,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "1"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "60",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/ez-bar-skullcrusher",
+                                "exercise_name": "EZ-Bar Skullcrusher",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "E-Z Curl Bar",
+                                "rest_time": "3"
+                            }
+                        ],
+                        "sequence": 5,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "3"
+                    }
+                ],
+                "rest_time": "3"
+            },
+            {
+                "sequence": 6,
+                "sets": [
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "30",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/triceps-pushdown-rope-attachment",
+                                "exercise_name": "Triceps Pushdown - Rope Attachment",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Cable",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 1,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "30",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/triceps-pushdown-rope-attachment",
+                                "exercise_name": "Triceps Pushdown - Rope Attachment",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Cable",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 2,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "30",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/triceps-pushdown-rope-attachment",
+                                "exercise_name": "Triceps Pushdown - Rope Attachment",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Cable",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 3,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "30",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/triceps-pushdown-rope-attachment",
+                                "exercise_name": "Triceps Pushdown - Rope Attachment",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Cable",
+                                "rest_time": "0"
+                            }
+                        ],
+                        "sequence": 4,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": "0"
+                    },
+                    {
+                        "set_components": [
+                            {
+                                "sequence": 1,
+                                "weight_metric": "lbs",
+                                "weight": "30",
+                                "reps": "10",
+                                "target": "10",
+                                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/triceps-pushdown-rope-attachment",
+                                "exercise_name": "Triceps Pushdown - Rope Attachment",
+                                "exercise_muscle": "Triceps",
+                                "exercise_type": "strength",
+                                "exercise_equipment": "Cable",
+                                "rest_time": null
+                            }
+                        ],
+                        "sequence": 5,
+                        "type": "STRAIGHT_SET",
+                        "rest_time": null
+                    }
+                ],
+                "rest_time": null
+            }
+        ]
     }
 ]

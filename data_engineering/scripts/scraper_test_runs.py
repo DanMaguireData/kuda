@@ -1,5 +1,6 @@
 import json
 import time
+from pprint import pprint
 
 import requests
 
@@ -24,6 +25,8 @@ def scrape_single_workout(link: str):
     return workout
 
 
-scrape_single_workout(
-    f"{BASE_WORKOUT_URL}coachdmurph/5bf3ec42176a3027b0ad04d8"
+response = scrape_single_workout(
+    f"{BASE_WORKOUT_URL}102561/54ff1aed0cf2b9e68f9ec26f"
 )
+
+pprint(response)
