@@ -145,7 +145,7 @@ def handle_double_set_component(
         raw_title = title.text
 
         if (
-            raw_title.strip().replace("\n", "").lower() == "time"
+            "time" in raw_title.strip().replace("\n", "").lower()
             and handle_type == "cardio"
         ):
             performance = (

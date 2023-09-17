@@ -1,0 +1,38 @@
+{
+    "name": "Arnold Blueprint To Cut: Cardio",
+    "username": "camwheels",
+    "url": "https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/camwheels/57b343410cf2ec9874e48b70",
+    "muscles_used": [
+        "Quadriceps"
+    ],
+    "duration": "1260",
+    "cardio_duration": "1200",
+    "energy_level": 2,
+    "self_rating": "7",
+    "workout_components": [
+        {
+            "sequence": 1,
+            "sets": [
+                {
+                    "set_components": [
+                        {
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/running-treadmill",
+                            "exercise_name": "Running, Treadmill",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_type": "cardio",
+                            "exercise_equipment": "Machine",
+                            "weight_metric": "seconds",
+                            "weight": "1200",
+                            "reps": null,
+                            "target": null,
+                            "rest_time": null
+                        }
+                    ],
+                    "sequence": 1,
+                    "type": "STRAIGHT_SET"
+                }
+            ],
+            "rest_time": null
+        }
+    ]
+}

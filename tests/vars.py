@@ -6,10 +6,6 @@ BASE_WORKOUT_URL: str = (
 
 WORKOUT_VARIANTS: List[Dict[str, str]] = [
     {
-        "link": f"{BASE_WORKOUT_URL}12LittLebit/5a024d9fb36829286bb464e11",
-        "summary:": ("Fake link to test the scraper's error handling."),
-    },
-    {
         "link": f"{BASE_WORKOUT_URL}coachdmurph/5bf3ec42176a3027b0ad04d8",
         "summary:": (
             "Contains a seperate dropset, superset "
