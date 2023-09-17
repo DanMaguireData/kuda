@@ -1,38 +1,38 @@
 {
-    "name": "Arnold Blueprint To Cut: Cardio",
-    "username": "camwheels",
-    "url": "https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/camwheels/57b343410cf2ec9874e48b70",
+    "cardio_duration": "1200",
+    "duration": "1260",
+    "energy_level": 2,
     "muscles_used": [
         "Quadriceps"
     ],
-    "duration": "1260",
-    "cardio_duration": "1200",
-    "energy_level": 2,
+    "name": "Arnold Blueprint To Cut: Cardio",
     "self_rating": "7",
+    "url": "https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/camwheels/57b343410cf2ec9874e48b70",
+    "username": "camwheels",
     "workout_components": [
         {
+            "rest_time": null,
             "sequence": 1,
             "sets": [
                 {
+                    "sequence": 1,
                     "set_components": [
                         {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/running-treadmill",
-                            "exercise_name": "Running, Treadmill",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "cardio",
                             "exercise_equipment": "Machine",
-                            "weight_metric": "seconds",
-                            "weight": "1200",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/running-treadmill",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Running, Treadmill",
+                            "exercise_type": "cardio",
                             "reps": null,
+                            "rest_time": null,
                             "target": null,
-                            "rest_time": null
+                            "weight": "1200",
+                            "weight_metric": "seconds"
                         }
                     ],
-                    "sequence": 1,
                     "type": "STRAIGHT_SET"
                 }
-            ],
-            "rest_time": null
+            ]
         }
     ]
 }
