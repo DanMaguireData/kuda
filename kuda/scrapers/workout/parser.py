@@ -54,6 +54,9 @@ class WorkoutComponent(TypedDict):
 class Workout(TypedDict):
     created_by: str
     name: str
+    month: str
+    month_date: str
+    year: str
     muscles_used: List[str]
     duration: str
     cardio_duration: str
@@ -309,9 +312,20 @@ def parse_workout_html(url: str, html_text: element.Tag) -> Dict[str, str]:
     workout_name: element.Tag = html_page.find(
         "div", {"class": "rowSectionHeader"}
     ).text
+
     workout["name"] = workout_name
     workout["username"] = username
     workout["url"] = url
+
+    month = html_page.find("span", {"class": "month-abbr"})
+    month_date = html_page.find("span", {"class": "month-date"})
+    year = html_page.find("span", {"class": "year"})
+
+    workout["month"] = month.text.strip().lower() if month else None
+    workout["month_date"] = (
+        month_date.text.strip().lower() if month_date else None
+    )
+    workout["year"] = year.text.strip().lower() if year else None
 
     # Get the Muslces worked according to the App
     muscles_used_tag: element.Tag = html_page.find(

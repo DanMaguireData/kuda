@@ -38,7 +38,7 @@ def test_workout_link_html_parser() -> None:
     """
     Test that the parsed data is the same as the one
     """
-    
+
     # pylint: disable=consider-using-with
     raw_html = json.load(
         open(f"{FILE_PATH}/html/workouts.json", "r", encoding="utf-8")
