@@ -2,11 +2,14 @@ import json
 
 import requests
 
-from kuda.scrapers.workout.parser import parse_workout_html
+from kuda.scrapers import parse_workout_html
 
 broken = {
-	"body": ["https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/52vizcaino/568065660cf215707caff8cb"],
-	"bucket_key": "workout-data/male/age_21_25"
+    "body": [
+        "https://bodyspace.bodybuilding.com/workouts/"
+        "viewworkoutlog/52vizcaino/568065660cf215707caff8cb"
+    ],
+    "bucket_key": "workout-data/male/age_21_25",
 }
 
 
