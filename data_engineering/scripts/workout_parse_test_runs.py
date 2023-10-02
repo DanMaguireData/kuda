@@ -7,7 +7,7 @@ from kuda.scrapers import parse_workout_html
 broken = {
     "body": [
         "https://bodyspace.bodybuilding.com/workouts/"
-        "viewworkoutlog/52vizcaino/568065660cf215707caff8cb"
+        "viewworkoutlog/Calvinkranig/595ebc213f53543136450924",
     ],
     "bucket_key": "workout-data/male/age_21_25",
 }

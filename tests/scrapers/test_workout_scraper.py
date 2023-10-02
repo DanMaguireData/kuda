@@ -2,8 +2,7 @@ import json
 
 from deepdiff import DeepDiff
 
-from kuda.scrapers import scrape_urls
-from kuda.scrapers import parse_workout_html
+from kuda.scrapers import parse_workout_html, scrape_urls
 from tests.vars import WORKOUT_VARIANTS
 
 FILE_PATH = "tests/files/workout_links"

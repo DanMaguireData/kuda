@@ -1,9 +1,10 @@
-import os
 import json
+import os
+
 import pandas as pd
 
-from kuda.scrapers.async_scrape import scrape_urls
 from kuda.scrapers import parse_exericse_html
+from kuda.scrapers.async_scrape import scrape_urls
 
 current_script_path = os.path.abspath(__file__)
 current_script_path = "/".join(current_script_path.split("/")[:-1])
@@ -29,7 +30,9 @@ for res in results:
         failed_results.append(res)
 
 df = pd.DataFrame(successful_results)
-df.to_csv(os.path.join(current_script_path, "files/exercises.csv"), index=False)
+df.to_csv(
+    os.path.join(current_script_path, "files/exercises.csv"), index=False
+)
 
 with open(
     os.path.join(current_script_path, "files/failed_exercises.json"), "w"

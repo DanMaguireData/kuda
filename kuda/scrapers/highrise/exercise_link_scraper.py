@@ -3,17 +3,16 @@ Module for scraping all the exercise links from
 highrise's exercise db
 """
 
-from typing import Tuple
 import json
-import time
 import os
+import time
+from typing import Tuple
 
 from selenium import webdriver
-
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 current_script_path = os.path.abspath(__file__)
 current_script_path = "/".join(current_script_path.split("/")[:-1])
@@ -129,9 +128,8 @@ while True:
             print("Button not found. Retrying.")
             time.sleep(5)
             continue
-        else:
-            print("Button no longer exists. Exiting.")
-            break
+        print("Button no longer exists. Exiting.")
+        break
 
 
 exercise_result_div = driver.find_element(By.CLASS_NAME, "ExCategory-results")
@@ -144,7 +142,9 @@ for link_element in exercise_result_div.find_elements(By.TAG_NAME, "a"):
             all_links.append(href)
 
 
-with open(os.path.join(current_script_path, "files/exercise_links.json"), "w") as f:
+with open(
+    os.path.join(current_script_path, "files/exercise_links.json"), "w"
+) as f:
     json.dump(all_links, f, indent=4)
 
 print(f"Script took {round((time.time() - script_start)/60, 2)}/  to run.")

@@ -1,5 +1,5 @@
-from typing import TypedDict, List, Optional
 import re
+from typing import List, Optional, TypedDict
 
 from bs4 import BeautifulSoup, element
 

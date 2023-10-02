@@ -245,6 +245,9 @@ def get_bb_set_type_and_target(
         .split("-")
     )
     bb_set_type = atts[0].replace(":", "")
+    # Weird negative set case doesn't give info
+    # about how long the negative should be so ignore
+    bb_set_type = bb_set_type.replace("Negative\n", "")
     target_string = None
     if len(atts) > 1:
         target_string = (
