@@ -9,7 +9,7 @@ broken = {
         "https://bodyspace.bodybuilding.com/workouts/"
         "viewworkoutlog/Calvinkranig/595ebc213f53543136450924",
     ],
-    "bucket_key": "workout-data/male/age_21_25",
+    "bucket_key": "highrise/workout-data/male/age_21_25",
 }
 
 
