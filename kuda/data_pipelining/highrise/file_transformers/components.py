@@ -44,6 +44,7 @@ class WorkoutParser:
                         'YYYY-MM-DD HH:MM:SS'
         """
         month_num = functions.MONTH_STR_TO_NUM[month.lower()]
+        month_date = month_date.zfill(2)
         date_string = f"{month_date}{month_num}{year}"
         return dt.datetime.strptime(date_string, "%d%m%Y").strftime(
             "%Y-%m-%d %H:%M:%S"
