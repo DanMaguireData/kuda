@@ -1,10 +1,9 @@
 {
-    "name": "Jim Stoppani's Shortcut To Shred: Day 24 - Back, Traps, Biceps",
-    "username": "12LittLebit",
-    "url": "https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/12LittLebit/5a024d9fb36829286bb464e9",
+    "cardio_duration": "0",
+    "duration": "3780",
+    "energy_level": 4,
     "month": "nov",
     "month_date": "7",
-    "year": "2017",
     "muscles_used": [
         "Traps",
         "Middle Back",
@@ -15,988 +14,989 @@
         "Forearms",
         "Lats"
     ],
-    "duration": "3780",
-    "cardio_duration": "0",
-    "energy_level": 4,
+    "name": "Jim Stoppani's Shortcut To Shred: Day 24 - Back, Traps, Biceps",
     "self_rating": "4",
+    "url": "https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/12LittLebit/5a024d9fb36829286bb464e9",
+    "username": "12LittLebit",
     "workout_components": [
         {
+            "rest_time": "45",
             "sequence": 1,
             "sets": [
                 {
+                    "rest_time": "45",
+                    "sequence": 1,
                     "set_components": [
                         {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
-                            "exercise_name": "Fast Skipping",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "plyo",
                             "exercise_equipment": "Body Only",
-                            "weight_metric": "seconds",
-                            "weight": "1",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Fast Skipping",
+                            "exercise_type": "plyo",
                             "reps": null,
-                            "target": "120",
                             "rest_time": "45",
-                            "sequence": 1
+                            "sequence": 1,
+                            "target": "120",
+                            "weight": "1",
+                            "weight_metric": "seconds"
                         }
                     ],
-                    "sequence": 1,
-                    "type": "STRAIGHT_SET",
-                    "rest_time": "45"
+                    "type": "STRAIGHT_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": "45",
             "sequence": 2,
             "sets": [
                 {
+                    "rest_time": "0",
+                    "sequence": 1,
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "70",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
-                            "exercise_name": "Bent Over Barbell Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": "0"
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Bent Over Barbell Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": "0",
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "70",
+                            "weight_metric": "lbs"
                         }
                     ],
-                    "sequence": 1,
-                    "type": "STRAIGHT_SET",
-                    "rest_time": "0"
+                    "type": "STRAIGHT_SET"
                 },
                 {
+                    "rest_time": "45",
+                    "sequence": 2,
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "76",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
-                            "exercise_name": "Bent Over Barbell Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": "45"
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Bent Over Barbell Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": "45",
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "76",
+                            "weight_metric": "lbs"
                         }
                     ],
-                    "sequence": 2,
-                    "type": "STRAIGHT_SET",
-                    "rest_time": "45"
+                    "type": "STRAIGHT_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": "45",
             "sequence": 3,
             "sets": [
                 {
-                    "set_components": [
-                        {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "70",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
-                            "exercise_name": "Bent Over Barbell Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Barbell",
-                            "rest_time": null
-                        },
-                        {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
-                            "exercise_name": "Fast Skipping",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "plyo",
-                            "exercise_equipment": "Body Only",
-                            "weight_metric": "seconds",
-                            "weight": "1",
-                            "reps": null,
-                            "target": "60",
-                            "rest_time": null,
-                            "sequence": 2
-                        }
-                    ],
+                    "rest_time": null,
                     "sequence": 1,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "70",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
-                            "exercise_name": "Bent Over Barbell Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Bent Over Barbell Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "70",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
-                            "exercise_name": "Fast Skipping",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "plyo",
                             "exercise_equipment": "Body Only",
-                            "weight_metric": "seconds",
-                            "weight": "1",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Fast Skipping",
+                            "exercise_type": "plyo",
                             "reps": null,
-                            "target": "60",
                             "rest_time": null,
-                            "sequence": 2
+                            "sequence": 2,
+                            "target": "60",
+                            "weight": "1",
+                            "weight_metric": "seconds"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
                     "sequence": 2,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "70",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
-                            "exercise_name": "Bent Over Barbell Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
-                        },
-                        {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
-                            "exercise_name": "Fast Skipping",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "plyo",
-                            "exercise_equipment": "Body Only",
-                            "weight_metric": "seconds",
-                            "weight": "1",
-                            "reps": null,
-                            "target": "60",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Bent Over Barbell Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
                             "rest_time": null,
-                            "sequence": 2
-                        }
-                    ],
-                    "sequence": 3,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
-                    "set_components": [
-                        {
                             "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "70",
-                            "reps": "6",
                             "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
-                            "exercise_name": "Bent Over Barbell Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "weight": "70",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
-                            "exercise_name": "Fast Skipping",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "plyo",
                             "exercise_equipment": "Body Only",
-                            "weight_metric": "seconds",
-                            "weight": "1",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Fast Skipping",
+                            "exercise_type": "plyo",
                             "reps": null,
+                            "rest_time": null,
+                            "sequence": 2,
                             "target": "60",
-                            "rest_time": "45",
-                            "sequence": 2
+                            "weight": "1",
+                            "weight_metric": "seconds"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
+                    "sequence": 3,
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Barbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Bent Over Barbell Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "70",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Body Only",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Fast Skipping",
+                            "exercise_type": "plyo",
+                            "reps": null,
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "60",
+                            "weight": "1",
+                            "weight_metric": "seconds"
+                        }
+                    ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": "45",
                     "sequence": 4,
-                    "type": "SUPER_SET",
-                    "rest_time": "45"
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Barbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/bent-over-barbell-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Bent Over Barbell Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "70",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Body Only",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/fast-skipping",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Fast Skipping",
+                            "exercise_type": "plyo",
+                            "reps": null,
+                            "rest_time": "45",
+                            "sequence": 2,
+                            "target": "60",
+                            "weight": "1",
+                            "weight_metric": "seconds"
+                        }
+                    ],
+                    "type": "SUPER_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": "45",
             "sequence": 4,
             "sets": [
                 {
-                    "set_components": [
-                        {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "20",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row",
-                            "exercise_name": "Dumbbell Incline Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Dumbbell",
-                            "rest_time": null
-                        },
-                        {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/goblet-squat",
-                            "exercise_name": "Goblet Squat",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Kettlebells",
-                            "rest_time": null
-                        }
-                    ],
+                    "rest_time": null,
                     "sequence": 1,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "20",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row",
-                            "exercise_name": "Dumbbell Incline Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Dumbbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Dumbbell Incline Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "20",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/goblet-squat",
-                            "exercise_name": "Goblet Squat",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Kettlebells",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/goblet-squat",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Goblet Squat",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
                     "sequence": 2,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "20",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row",
-                            "exercise_name": "Dumbbell Incline Row",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Dumbbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Dumbbell Incline Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "20",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/goblet-squat",
-                            "exercise_name": "Goblet Squat",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Kettlebells",
-                            "rest_time": "45"
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/goblet-squat",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Goblet Squat",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": "45",
                     "sequence": 3,
-                    "type": "SUPER_SET",
-                    "rest_time": "45"
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Dumbbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-incline-row",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Dumbbell Incline Row",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "20",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Kettlebells",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/goblet-squat",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Goblet Squat",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": "45",
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
+                        }
+                    ],
+                    "type": "SUPER_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": "45",
             "sequence": 5,
             "sets": [
                 {
-                    "set_components": [
-                        {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "90",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-cable-rows",
-                            "exercise_name": "Seated Cable Rows",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Cable",
-                            "rest_time": null
-                        },
-                        {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/box-jump-multiple-response",
-                            "exercise_name": "Box Jump (Multiple Response)",
-                            "exercise_muscle": "Hamstrings",
-                            "exercise_type": "plyo",
-                            "exercise_equipment": "Other",
-                            "weight_metric": "seconds",
-                            "weight": "1",
-                            "reps": null,
-                            "target": "60",
-                            "rest_time": null,
-                            "sequence": 2
-                        }
-                    ],
+                    "rest_time": null,
                     "sequence": 1,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "90",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-cable-rows",
-                            "exercise_name": "Seated Cable Rows",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Cable",
-                            "rest_time": null
-                        },
-                        {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/box-jump-multiple-response",
-                            "exercise_name": "Box Jump (Multiple Response)",
-                            "exercise_muscle": "Hamstrings",
-                            "exercise_type": "plyo",
-                            "exercise_equipment": "Other",
-                            "weight_metric": "seconds",
-                            "weight": "1",
-                            "reps": null,
-                            "target": "60",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-cable-rows",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Seated Cable Rows",
+                            "exercise_type": "strength",
+                            "reps": "6",
                             "rest_time": null,
-                            "sequence": 2
-                        }
-                    ],
-                    "sequence": 2,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
-                    "set_components": [
-                        {
                             "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "90",
-                            "reps": "6",
                             "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-cable-rows",
-                            "exercise_name": "Seated Cable Rows",
-                            "exercise_muscle": "Middle Back",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Cable",
-                            "rest_time": null
+                            "weight": "90",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/box-jump-multiple-response",
-                            "exercise_name": "Box Jump (Multiple Response)",
-                            "exercise_muscle": "Hamstrings",
-                            "exercise_type": "plyo",
                             "exercise_equipment": "Other",
-                            "weight_metric": "seconds",
-                            "weight": "1",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/box-jump-multiple-response",
+                            "exercise_muscle": "Hamstrings",
+                            "exercise_name": "Box Jump (Multiple Response)",
+                            "exercise_type": "plyo",
                             "reps": null,
+                            "rest_time": null,
+                            "sequence": 2,
                             "target": "60",
-                            "rest_time": "45",
-                            "sequence": 2
+                            "weight": "1",
+                            "weight_metric": "seconds"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
+                    "sequence": 2,
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Cable",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-cable-rows",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Seated Cable Rows",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "90",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Other",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/box-jump-multiple-response",
+                            "exercise_muscle": "Hamstrings",
+                            "exercise_name": "Box Jump (Multiple Response)",
+                            "exercise_type": "plyo",
+                            "reps": null,
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "60",
+                            "weight": "1",
+                            "weight_metric": "seconds"
+                        }
+                    ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": "45",
                     "sequence": 3,
-                    "type": "SUPER_SET",
-                    "rest_time": "45"
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Cable",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-cable-rows",
+                            "exercise_muscle": "Middle Back",
+                            "exercise_name": "Seated Cable Rows",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "90",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Other",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/box-jump-multiple-response",
+                            "exercise_muscle": "Hamstrings",
+                            "exercise_name": "Box Jump (Multiple Response)",
+                            "exercise_type": "plyo",
+                            "reps": null,
+                            "rest_time": "45",
+                            "sequence": 2,
+                            "target": "60",
+                            "weight": "1",
+                            "weight_metric": "seconds"
+                        }
+                    ],
+                    "type": "SUPER_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": "45",
             "sequence": 6,
             "sets": [
                 {
-                    "set_components": [
-                        {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "140",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-shrug",
-                            "exercise_name": "Barbell Shrug",
-                            "exercise_muscle": "Traps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Barbell",
-                            "rest_time": null
-                        },
-                        {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-step-ups",
-                            "exercise_name": "Dumbbell Step Ups",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Dumbbell",
-                            "rest_time": null
-                        }
-                    ],
+                    "rest_time": null,
                     "sequence": 1,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "140",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-shrug",
-                            "exercise_name": "Barbell Shrug",
-                            "exercise_muscle": "Traps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-shrug",
+                            "exercise_muscle": "Traps",
+                            "exercise_name": "Barbell Shrug",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "140",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-step-ups",
-                            "exercise_name": "Dumbbell Step Ups",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Dumbbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-step-ups",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Dumbbell Step Ups",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
                     "sequence": 2,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "140",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-shrug",
-                            "exercise_name": "Barbell Shrug",
-                            "exercise_muscle": "Traps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-shrug",
+                            "exercise_muscle": "Traps",
+                            "exercise_name": "Barbell Shrug",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "140",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
+                            "exercise_equipment": "Dumbbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-step-ups",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Dumbbell Step Ups",
+                            "exercise_type": "strength",
                             "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
                             "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-step-ups",
-                            "exercise_name": "Dumbbell Step Ups",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Dumbbell",
-                            "rest_time": null
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
-                    "sequence": 3,
-                    "type": "SUPER_SET",
-                    "rest_time": null
+                    "type": "SUPER_SET"
                 },
                 {
+                    "rest_time": null,
+                    "sequence": 3,
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "140",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-shrug",
-                            "exercise_name": "Barbell Shrug",
-                            "exercise_muscle": "Traps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-shrug",
+                            "exercise_muscle": "Traps",
+                            "exercise_name": "Barbell Shrug",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "140",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": null,
-                            "weight": null,
-                            "reps": "0",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-step-ups",
-                            "exercise_name": "Dumbbell Step Ups",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Dumbbell",
-                            "rest_time": "45"
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-step-ups",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Dumbbell Step Ups",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": "45",
                     "sequence": 4,
-                    "type": "SUPER_SET",
-                    "rest_time": "45"
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Barbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-shrug",
+                            "exercise_muscle": "Traps",
+                            "exercise_name": "Barbell Shrug",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "140",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Dumbbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-step-ups",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Dumbbell Step Ups",
+                            "exercise_type": "strength",
+                            "reps": "0",
+                            "rest_time": "45",
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": null,
+                            "weight_metric": null
+                        }
+                    ],
+                    "type": "SUPER_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": "45",
             "sequence": 7,
             "sets": [
                 {
-                    "set_components": [
-                        {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "60",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-curl",
-                            "exercise_name": "Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Barbell",
-                            "rest_time": null
-                        },
-                        {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/one-arm-kettlebell-swings",
-                            "exercise_name": "One-Arm Kettlebell Swings",
-                            "exercise_muscle": "Hamstrings",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Kettlebells",
-                            "rest_time": null
-                        }
-                    ],
+                    "rest_time": null,
                     "sequence": 1,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "60",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-curl",
-                            "exercise_name": "Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "60",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/one-arm-kettlebell-swings",
-                            "exercise_name": "One-Arm Kettlebell Swings",
-                            "exercise_muscle": "Hamstrings",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Kettlebells",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/one-arm-kettlebell-swings",
+                            "exercise_muscle": "Hamstrings",
+                            "exercise_name": "One-Arm Kettlebell Swings",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
                     "sequence": 2,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "60",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-curl",
-                            "exercise_name": "Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "60",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/one-arm-kettlebell-swings",
-                            "exercise_name": "One-Arm Kettlebell Swings",
-                            "exercise_muscle": "Hamstrings",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Kettlebells",
-                            "rest_time": "45"
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/one-arm-kettlebell-swings",
+                            "exercise_muscle": "Hamstrings",
+                            "exercise_name": "One-Arm Kettlebell Swings",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": "45",
                     "sequence": 3,
-                    "type": "SUPER_SET",
-                    "rest_time": "45"
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Barbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "60",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Kettlebells",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/one-arm-kettlebell-swings",
+                            "exercise_muscle": "Hamstrings",
+                            "exercise_name": "One-Arm Kettlebell Swings",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": "45",
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
+                        }
+                    ],
+                    "type": "SUPER_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": "45",
             "sequence": 8,
             "sets": [
                 {
-                    "set_components": [
-                        {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "0",
-                            "reps": "0",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-close-grip-concentration-barbell-curl",
-                            "exercise_name": "Seated Close-Grip Concentration Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Barbell",
-                            "rest_time": null
-                        },
-                        {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/overhead-slam",
-                            "exercise_name": "Overhead Slam",
-                            "exercise_muscle": "Lats",
-                            "exercise_type": "plyo",
-                            "exercise_equipment": "Medicine Ball",
-                            "weight_metric": "seconds",
-                            "weight": "0",
-                            "reps": null,
-                            "target": "60",
-                            "rest_time": null,
-                            "sequence": 2
-                        }
-                    ],
+                    "rest_time": null,
                     "sequence": 1,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": null,
-                            "weight": null,
-                            "reps": "0",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-close-grip-concentration-barbell-curl",
-                            "exercise_name": "Seated Close-Grip Concentration Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
-                        },
-                        {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/overhead-slam",
-                            "exercise_name": "Overhead Slam",
-                            "exercise_muscle": "Lats",
-                            "exercise_type": "plyo",
-                            "exercise_equipment": "Medicine Ball",
-                            "weight_metric": "seconds",
-                            "weight": "0",
-                            "reps": null,
-                            "target": "60",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-close-grip-concentration-barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Seated Close-Grip Concentration Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "0",
                             "rest_time": null,
-                            "sequence": 2
-                        }
-                    ],
-                    "sequence": 2,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
-                    "set_components": [
-                        {
                             "sequence": 1,
-                            "weight_metric": null,
-                            "weight": null,
-                            "reps": "0",
                             "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-close-grip-concentration-barbell-curl",
-                            "exercise_name": "Seated Close-Grip Concentration Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "weight": "0",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/overhead-slam",
-                            "exercise_name": "Overhead Slam",
-                            "exercise_muscle": "Lats",
-                            "exercise_type": "plyo",
                             "exercise_equipment": "Medicine Ball",
-                            "weight_metric": "seconds",
-                            "weight": "0",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/overhead-slam",
+                            "exercise_muscle": "Lats",
+                            "exercise_name": "Overhead Slam",
+                            "exercise_type": "plyo",
                             "reps": null,
+                            "rest_time": null,
+                            "sequence": 2,
                             "target": "60",
-                            "rest_time": "45",
-                            "sequence": 2
+                            "weight": "0",
+                            "weight_metric": "seconds"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
+                    "sequence": 2,
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Barbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-close-grip-concentration-barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Seated Close-Grip Concentration Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "0",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": null,
+                            "weight_metric": null
+                        },
+                        {
+                            "exercise_equipment": "Medicine Ball",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/overhead-slam",
+                            "exercise_muscle": "Lats",
+                            "exercise_name": "Overhead Slam",
+                            "exercise_type": "plyo",
+                            "reps": null,
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "60",
+                            "weight": "0",
+                            "weight_metric": "seconds"
+                        }
+                    ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": "45",
                     "sequence": 3,
-                    "type": "SUPER_SET",
-                    "rest_time": "45"
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Barbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-close-grip-concentration-barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Seated Close-Grip Concentration Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "0",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": null,
+                            "weight_metric": null
+                        },
+                        {
+                            "exercise_equipment": "Medicine Ball",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/overhead-slam",
+                            "exercise_muscle": "Lats",
+                            "exercise_name": "Overhead Slam",
+                            "exercise_type": "plyo",
+                            "reps": null,
+                            "rest_time": "45",
+                            "sequence": 2,
+                            "target": "60",
+                            "weight": "0",
+                            "weight_metric": "seconds"
+                        }
+                    ],
+                    "type": "SUPER_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": "45",
             "sequence": 9,
             "sets": [
                 {
-                    "set_components": [
-                        {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "40",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/reverse-barbell-curl",
-                            "exercise_name": "Reverse Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Barbell",
-                            "rest_time": null
-                        },
-                        {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-lunges",
-                            "exercise_name": "Dumbbell Lunges",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Dumbbell",
-                            "rest_time": null
-                        }
-                    ],
+                    "rest_time": null,
                     "sequence": 1,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "40",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/reverse-barbell-curl",
-                            "exercise_name": "Reverse Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/reverse-barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Reverse Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "40",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-lunges",
-                            "exercise_name": "Dumbbell Lunges",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Dumbbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-lunges",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Dumbbell Lunges",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
                     "sequence": 2,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "40",
-                            "reps": "6",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/reverse-barbell-curl",
-                            "exercise_name": "Reverse Barbell Curl",
-                            "exercise_muscle": "Biceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/reverse-barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Reverse Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "40",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": "lbs",
-                            "weight": "1",
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-lunges",
-                            "exercise_name": "Dumbbell Lunges",
-                            "exercise_muscle": "Quadriceps",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Dumbbell",
-                            "rest_time": "45"
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-lunges",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Dumbbell Lunges",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": "45",
                     "sequence": 3,
-                    "type": "SUPER_SET",
-                    "rest_time": "45"
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Barbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/reverse-barbell-curl",
+                            "exercise_muscle": "Biceps",
+                            "exercise_name": "Reverse Barbell Curl",
+                            "exercise_type": "strength",
+                            "reps": "6",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "40",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Dumbbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/dumbbell-lunges",
+                            "exercise_muscle": "Quadriceps",
+                            "exercise_name": "Dumbbell Lunges",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": "45",
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": "1",
+                            "weight_metric": "lbs"
+                        }
+                    ],
+                    "type": "SUPER_SET"
                 }
-            ],
-            "rest_time": "45"
+            ]
         },
         {
+            "rest_time": null,
             "sequence": 10,
             "sets": [
                 {
-                    "set_components": [
-                        {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "15",
-                            "reps": "15",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-palm-up-barbell-wrist-curl",
-                            "exercise_name": "Seated Palm-Up Barbell Wrist Curl",
-                            "exercise_muscle": "Forearms",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Barbell",
-                            "rest_time": null
-                        },
-                        {
-                            "sequence": 2,
-                            "weight_metric": null,
-                            "weight": null,
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/battling-ropes",
-                            "exercise_name": "Battling Ropes",
-                            "exercise_muscle": "Shoulders",
-                            "exercise_type": "strength",
-                            "exercise_equipment": "Other",
-                            "rest_time": null
-                        }
-                    ],
+                    "rest_time": null,
                     "sequence": 1,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "15",
-                            "reps": "15",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-palm-up-barbell-wrist-curl",
-                            "exercise_name": "Seated Palm-Up Barbell Wrist Curl",
-                            "exercise_muscle": "Forearms",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-palm-up-barbell-wrist-curl",
+                            "exercise_muscle": "Forearms",
+                            "exercise_name": "Seated Palm-Up Barbell Wrist Curl",
+                            "exercise_type": "strength",
+                            "reps": "15",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "15",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": null,
-                            "weight": null,
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/battling-ropes",
-                            "exercise_name": "Battling Ropes",
-                            "exercise_muscle": "Shoulders",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Other",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/battling-ropes",
+                            "exercise_muscle": "Shoulders",
+                            "exercise_name": "Battling Ropes",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": null,
+                            "weight_metric": null
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
                     "sequence": 2,
-                    "type": "SUPER_SET",
-                    "rest_time": null
-                },
-                {
                     "set_components": [
                         {
-                            "sequence": 1,
-                            "weight_metric": "lbs",
-                            "weight": "15",
-                            "reps": "15",
-                            "target": "9",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-palm-up-barbell-wrist-curl",
-                            "exercise_name": "Seated Palm-Up Barbell Wrist Curl",
-                            "exercise_muscle": "Forearms",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Barbell",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-palm-up-barbell-wrist-curl",
+                            "exercise_muscle": "Forearms",
+                            "exercise_name": "Seated Palm-Up Barbell Wrist Curl",
+                            "exercise_type": "strength",
+                            "reps": "15",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "15",
+                            "weight_metric": "lbs"
                         },
                         {
-                            "sequence": 2,
-                            "weight_metric": null,
-                            "weight": null,
-                            "reps": "1",
-                            "target": "0",
-                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/battling-ropes",
-                            "exercise_name": "Battling Ropes",
-                            "exercise_muscle": "Shoulders",
-                            "exercise_type": "strength",
                             "exercise_equipment": "Other",
-                            "rest_time": null
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/battling-ropes",
+                            "exercise_muscle": "Shoulders",
+                            "exercise_name": "Battling Ropes",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": null,
+                            "weight_metric": null
                         }
                     ],
+                    "type": "SUPER_SET"
+                },
+                {
+                    "rest_time": null,
                     "sequence": 3,
-                    "type": "SUPER_SET",
-                    "rest_time": null
+                    "set_components": [
+                        {
+                            "exercise_equipment": "Barbell",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/seated-palm-up-barbell-wrist-curl",
+                            "exercise_muscle": "Forearms",
+                            "exercise_name": "Seated Palm-Up Barbell Wrist Curl",
+                            "exercise_type": "strength",
+                            "reps": "15",
+                            "rest_time": null,
+                            "sequence": 1,
+                            "target": "9",
+                            "weight": "15",
+                            "weight_metric": "lbs"
+                        },
+                        {
+                            "exercise_equipment": "Other",
+                            "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/battling-ropes",
+                            "exercise_muscle": "Shoulders",
+                            "exercise_name": "Battling Ropes",
+                            "exercise_type": "strength",
+                            "reps": "1",
+                            "rest_time": null,
+                            "sequence": 2,
+                            "target": "0",
+                            "weight": null,
+                            "weight_metric": null
+                        }
+                    ],
+                    "type": "SUPER_SET"
                 }
-            ],
-            "rest_time": null
+            ]
         }
-    ]
+    ],
+    "year": "2017"
 }

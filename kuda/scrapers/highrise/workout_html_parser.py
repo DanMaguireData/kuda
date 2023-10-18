@@ -15,6 +15,7 @@ WORKOUT_INACCESSIBLE_MESSAGE = (
     "visitthebodyspacehometonavigatetothepageyourequested."
 )
 
+
 class BBSetType(Enum):
     WEIGHT_REPS = "WEIGHT/REPS"
     REPS = "REPS"
@@ -315,6 +316,7 @@ def workout_inaccessible(html_page: element.Tag) -> bool:
         error_message = re.sub("\n| ", "", error_box.text.lower())
         return WORKOUT_INACCESSIBLE_MESSAGE == error_message
     return False
+
 
 def parse_workout_html(url: str, html_text: element.Tag) -> Dict[str, str]:
     username = url.split("viewworkoutlog")[1].split("/")[1]

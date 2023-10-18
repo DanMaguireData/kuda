@@ -1,11 +1,11 @@
 {
-    "python.testing.pytestArgs": [
-        "."
-    ],
-    "python.testing.pytestEnabled": true,
-    "python.testing.unittestEnabled": false,
     "python.analysis.extraPaths": [
         "../sheiva_cloud",
         "../grau"
     ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false
 }

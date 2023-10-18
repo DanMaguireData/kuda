@@ -130,6 +130,10 @@ def parse_workout_tree_level(
 
 
 def parse_workout_tree(workouts: List[Dict]):
+    """
+    Function for parsing the Workout Tree
+    """
+
     components: Dict[str, List] = defaultdict(list)
 
     parse_workout_tree_level(

@@ -1,11 +1,16 @@
 import json
 import os
 
-from tests.utils.functions import dict_comparsion
 from kuda.data_pipelining.highrise.file_transformers import parse_workout_tree
+from tests.utils.functions import dict_comparsion
 
 
 def test_workout_tree_parser():
+    """
+    Test that the individual workout tree components
+    are the same as the full tree in the parsed file.
+    """
+
     test_file_path = "tests/files/workout_links/parsed"
 
     with open(
@@ -36,11 +41,15 @@ def test_workout_tree_parser():
         dict_comparsion(
             dict_a=components["workouts"][0],
             dict_b={
-                "name": "Jim Stoppani's Shortcut To Shred: Day 24 - Back, Traps, Biceps",
+                "name": (
+                    "Jim Stoppani's Shortcut To Shred: "
+                    "Day 24 - Back, Traps, Biceps"
+                ),
                 "created_at": "2017-11-07 00:00:00",
                 "duration": 3780,
                 "url": (
-                    "https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/"
+                    "https://bodyspace.bodybuilding.com/"
+                    "workouts/viewworkoutlog/"
                     "12LittLebit/5a024d9fb36829286bb464e9"
                 ),
                 "muscles_used": (
@@ -134,7 +143,10 @@ def test_workout_tree_parser():
                 "weight": None,
                 "reps": 1,
                 "rest_time": None,
-                "exercise_link": "http://www.bodybuilding.com/exercises/detail/view/name/battling-ropes",
+                "exercise_link": (
+                    "http://www.bodybuilding.com/exercises/"
+                    "detail/view/name/battling-ropes"
+                ),
                 "created_at": "2017-11-07 00:00:00",
             },
             exclude_keys=["set_component_id"],

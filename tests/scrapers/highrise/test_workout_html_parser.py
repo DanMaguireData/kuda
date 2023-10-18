@@ -12,21 +12,23 @@ def test_workout_link_html_parser() -> None:
     Test that the parsed data is the same as the one
     """
 
-    # pylint: disable=consider-using-with
-    raw_html = json.load(
-        open(f"{FILE_PATH}/html/workouts.json", "r", encoding="utf-8")
-    )
-    parsed_workouts = json.load(
-        open(f"{FILE_PATH}/parsed/workouts.json", "r", encoding="utf-8")
-    )
+    with open(
+        f"{FILE_PATH}/html/workout_links.json", "r", encoding="utf-8"
+    ) as f:
+        raw_html = json.load(f)
+
+    with open(
+        f"{FILE_PATH}/parsed/workout_links.json", "r", encoding="utf-8"
+    ) as f:
+        parsed_workouts = json.load(f)
 
     for index, html_page in enumerate(raw_html):
         parsed_page = parse_workout_html(
             html_text=html_page, url=WORKOUT_VARIANTS[index]["link"]
         )
 
-        # Inaccessible Workout will just be an empty dict
-        if parsed_page == {}:
+        # Inaccessible Workout will just be an empty dict
+        if not parsed_page:
             assert parsed_page == parsed_workouts[index]
             continue
 
