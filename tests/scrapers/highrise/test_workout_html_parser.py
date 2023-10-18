@@ -1,4 +1,5 @@
 import json
+import pytest
 
 from deepdiff import DeepDiff
 
@@ -7,6 +8,7 @@ from tests.scrapers import FILE_PATH
 from tests.vars import WORKOUT_VARIANTS
 
 
+@pytest.mark.skip(reason="Skip untill site is back up")
 def test_workout_link_html_parser() -> None:
     """
     Test that the parsed data is the same as the one
