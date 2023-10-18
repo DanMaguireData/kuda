@@ -1,6 +1,6 @@
 import json
-import pytest
 
+import pytest
 from deepdiff import DeepDiff
 
 from kuda.scrapers import parse_workout_html
