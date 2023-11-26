@@ -8,19 +8,18 @@ from tests.scrapers import FILE_PATH
 from tests.vars import WORKOUT_VARIANTS
 
 
-@pytest.mark.skip(reason="Skip untill site is back up")
 def test_workout_link_html_parser() -> None:
     """
     Test that the parsed data is the same as the one
     """
 
     with open(
-        f"{FILE_PATH}/html/workout_links.json", "r", encoding="utf-8"
+        f"{FILE_PATH}/html/workouts.json", "r", encoding="utf-8"
     ) as f:
         raw_html = json.load(f)
 
     with open(
-        f"{FILE_PATH}/parsed/workout_links.json", "r", encoding="utf-8"
+        f"{FILE_PATH}/parsed/workouts.json", "r", encoding="utf-8"
     ) as f:
         parsed_workouts = json.load(f)
 
