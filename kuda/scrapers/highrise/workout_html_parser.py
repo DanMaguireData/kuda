@@ -8,6 +8,13 @@ from typing import Dict, List, Optional, Tuple, TypedDict
 
 from bs4 import BeautifulSoup, element
 
+# When a workout is inaccessible the full div error message is:
+WORKOUT_INACCESSIBLE_MESSAGE = (
+    "notice:somethinghasgonewrong!asystemerrororpermission"
+    "issuehasoccurred.weapologizefortheinconvenience.please"
+    "visitthebodyspacehometonavigatetothepageyourequested."
+)
+
 
 class BBSetType(Enum):
     WEIGHT_REPS = "WEIGHT/REPS"
@@ -245,6 +252,9 @@ def get_bb_set_type_and_target(
         .split("-")
     )
     bb_set_type = atts[0].replace(":", "")
+    # Weird negative set case doesn't give info
+    # about how long the negative should be so ignore
+    bb_set_type = bb_set_type.replace("Negative\n", "")
     target_string = None
     if len(atts) > 1:
         target_string = (
@@ -300,6 +310,14 @@ def find_rest_for_set_component(
             return get_rest_time(div.text)
 
 
+def workout_inaccessible(html_page: element.Tag) -> bool:
+    error_box = html_page.find("div", {"class": "message-box-message"})
+    if error_box:
+        error_message = re.sub("\n| ", "", error_box.text.lower())
+        return WORKOUT_INACCESSIBLE_MESSAGE == error_message
+    return False
+
+
 def parse_workout_html(url: str, html_text: element.Tag) -> Dict[str, str]:
     username = url.split("viewworkoutlog")[1].split("/")[1]
     html_page: element.Tag = BeautifulSoup(
@@ -307,6 +325,10 @@ def parse_workout_html(url: str, html_text: element.Tag) -> Dict[str, str]:
         "lxml",
     )
     workout: Workout = dict()
+
+    # Check workout exists
+    if workout_inaccessible(html_page):
+        return {}
 
     # Get the Workout Name
     workout_name: element.Tag = html_page.find(
@@ -470,14 +492,21 @@ def parse_workout_html(url: str, html_text: element.Tag) -> Dict[str, str]:
                         pass
                     # complicated cardio
                     else:
-                        set_["set_components"].append(
-                            handle_double_set_component(
-                                set_component_titles=set_component_titles,
-                                set_component_performances=set_component_performances,
-                                exercise=next(exercise_data),
-                                handle_type="cardio",
-                            )
+                        double_set_component = handle_double_set_component(
+                            set_component_titles=set_component_titles,
+                            set_component_performances=set_component_performances,
+                            exercise=next(exercise_data),
+                            handle_type="cardio",
                         )
+                        if set_index == len(set_tags) - 1:
+                            # Last set in a workout component should
+                            # take the rest time of the workout component
+                            double_set_component[
+                                "rest_time"
+                            ] = workout_component["rest_time"]
+                        double_set_component["sequence"] = 1
+                        set_["set_components"].append(double_set_component)
+                        set_["rest_time"] = double_set_component["rest_time"]
                         workout_component["sets"].append(set_)
                         continue
             else:
@@ -498,23 +527,29 @@ def parse_workout_html(url: str, html_text: element.Tag) -> Dict[str, str]:
                         and "drop" not in set_component_titles[0].text.lower()
                         and "drop" not in set_component_titles[1].text.lower()
                     ):
-                        set_["set_components"].append(
-                            handle_double_set_component(
-                                set_component_titles=set_component_titles
-                                if len(exercise_tags) == 1
-                                else set_component_titles[
-                                    set_component_index:
-                                ],
-                                set_component_performances=set_component_performances
-                                if len(exercise_tags) == 1
-                                else set_component_performances[
-                                    set_component_index:
-                                ],
-                                exercise=next(exercise_data),
-                                handle_type="weight",
-                            )
+                        double_set_component = handle_double_set_component(
+                            set_component_titles=set_component_titles
+                            if len(exercise_tags) == 1
+                            else set_component_titles[set_component_index:],
+                            set_component_performances=set_component_performances
+                            if len(exercise_tags) == 1
+                            else set_component_performances[
+                                set_component_index:
+                            ],
+                            exercise=next(exercise_data),
+                            handle_type="weight",
                         )
-                        # workout_component["sets"].append(set_)
+                        if set_index == len(set_tags) - 1:
+                            # Last set in a workout component should
+                            # take the rest time of the workout component
+                            double_set_component[
+                                "rest_time"
+                            ] = workout_component["rest_time"]
+                        double_set_component["sequence"] = (
+                            set_component_index + 1
+                        )
+                        set_["set_components"].append(double_set_component)
+                        set_["rest_time"] = double_set_component["rest_time"]
                         break
 
                 set_component: SetComponent = SetComponent()

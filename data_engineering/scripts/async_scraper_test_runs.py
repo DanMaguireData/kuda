@@ -1,8 +1,8 @@
 import json
 import time
 
+from kuda.scrapers import parse_workout_html
 from kuda.scrapers.async_scrape import scrape_urls
-from kuda.scrapers.workout.parser import parse_workout_html
 
 BASE_WORKOUT_URL: str = (
     "https://bodyspace.bodybuilding.com/workouts/viewworkoutlog/"

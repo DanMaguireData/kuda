@@ -1,2 +1,3 @@
 from kuda.scrapers.async_scrape import scrape_urls
-from kuda.scrapers.workout.parser import parse_workout_html
+from kuda.scrapers.highrise.exercise_html_parser import parse_exericse_html
+from kuda.scrapers.highrise.workout_html_parser import parse_workout_html

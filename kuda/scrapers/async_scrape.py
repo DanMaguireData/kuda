@@ -23,7 +23,8 @@ async def scrape_page(
         try:
             return html_parser(url, data)
         # pylint: disable=broad-except
-        except Exception:
+        except Exception as exp:
+            print(f"Error parsing {url}. {exp}")
             return url
 
 
@@ -69,7 +70,7 @@ def scrape_urls(
     """
 
     return asyncio.run(
-        scrape_in_batches(
+        scrape_in_batches(  # type: ignore
             urls=urls,
             batch_size=batch_size,
             html_parser=html_parser,

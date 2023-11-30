@@ -71,4 +71,8 @@ WORKOUT_VARIANTS: List[Dict[str, str]] = [
             "Broke the scraper with a weird set component title condition."
         ),
     },
+    {
+        "link": f"{BASE_WORKOUT_URL}FitnessFoodie7/54aeacb40cf23cace32948f4",
+        "summary:": ("Workout inaccessible."),
+    },
 ]
